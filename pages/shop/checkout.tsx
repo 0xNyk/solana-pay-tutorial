@@ -31,7 +31,7 @@ export default function Checkout() {
   // Solana Pay transfer params
   const urlParams: EncodeURLComponents = {
     recipient: shopAddress,
-    splToken: usdcAddress,
+    //splToken: usdcAddress,
     amount,
     reference,
     label: "Cookies Inc",
