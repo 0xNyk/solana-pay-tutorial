@@ -41,11 +41,11 @@ export default function CouponBook() {
 
   return (
     <>
-      <div className="flex flex-col bg-gray-900 text-white rounded-md p-1 items-center">
+      <div className="flex flex-col bg-green-200 text-black rounded-md p-2  items-center">
         <p>Collect 5 cookies to receive a 50% discount on your next purchase!</p>
 
-        <p className="flex flex-row gap-1 place-self-center">
-          {[...Array(couponBalance)].map((_, i) => <span key={i}>🍪</span>)}
+        <p className="flex flex-row gap-1 mt-2 place-self-center">
+          {[...Array(couponBalance)].map((_, i) => <span key={i}>🐶</span>)}
           {[...Array(notCollected)].map((_, i) => <span key={i}>⚪</span>)}
         </p>
       </div>
